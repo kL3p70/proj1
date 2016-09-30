@@ -21,7 +21,8 @@
         android:background="#BCBAAF"
         android:textColor="#9E5C72"
         android:layout_alignParentEnd="true"
-        android:layout_above="@+id/txtRating" />
+        android:layout_above="@+id/txtRating"
+        android:hint="I have opinions, and I value them" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -71,7 +72,8 @@
         android:layout_alignParentEnd="true"
         android:layout_width="250dp"
         android:background="#9E5C72"
-        android:textColor="#BCBAAF" />
+        android:textColor="#BCBAAF"
+        android:hint="085DA0" />
 
     <EditText
         android:id="@+id/txtColor"
@@ -80,7 +82,8 @@
         android:layout_alignParentEnd="true"
         android:background="#BCBAAF"
         android:layout_height="40dp"
-        android:textColor="#9E5C72" />
+        android:textColor="#9E5C72"
+        android:hint="Red, or Blue... " />
 
     <Button
         android:layout_width="wrap_content"
@@ -95,15 +98,15 @@
         android:layout_alignStart="@+id/textView6" />
 
     <EditText
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/txtRating"
         android:background="#9E5C72"
         android:layout_above="@+id/txtReviewer"
-        android:textColor="#BCBAAF" />
+        android:textColor="#BCBAAF"
+        android:layout_width="20dp"
+        android:hint="X" />
 
     <EditText
         android:layout_width="fill_parent"
@@ -113,18 +116,19 @@
         android:layout_marginBottom="19dp"
         android:layout_above="@+id/btnAdd"
         android:layout_alignParentStart="true"
-        android:background="#BCBAAF" />
+        android:background="#BCBAAF"
+        android:hint="Reviewer name here" />
 
     <TextView
         android:text="/10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtReview"
-        android:layout_toEndOf="@+id/btnAdd"
         android:id="@+id/textView8"
-        android:layout_above="@+id/txtReviewer"
         android:background="#9E5C72"
         android:textColor="#BCBAAF"
-        android:textSize="17sp" />
+        android:textSize="17sp"
+        android:layout_alignBaseline="@+id/txtRating"
+        android:layout_alignBottom="@+id/txtRating"
+        android:layout_toEndOf="@+id/txtRating" />
 
 </RelativeLayout>
